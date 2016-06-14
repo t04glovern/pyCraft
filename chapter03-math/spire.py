@@ -9,7 +9,7 @@ y = pos.y
 z = pos.z
 
 b_height = 2
-blockType = 1 # stone
+blockType = 1  # stone
 
 # Spire sides: should be same as height
 sideHeight = b_height

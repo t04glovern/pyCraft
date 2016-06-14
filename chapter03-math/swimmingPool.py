@@ -19,7 +19,7 @@ block_fill = 9  # water
 
 # create base cube
 mc.setBlocks(x,  # start pos x
-             y,  # start pos z
+             y,  # start pos y
              z,  # start pos z
              x + b_width,  # end pos x
              y + b_length,  # end pos y
@@ -28,7 +28,7 @@ mc.setBlocks(x,  # start pos x
 
 # punch out center of cube
 mc.setBlocks(x + b_thickness,  # start pos x
-             y + b_thickness,  # start pos z
+             y + b_thickness,  # start pos y
              z + b_thickness,  # start pos z
              x + b_width - b_thickness,  # end pos x
              y + b_length,  # end pos y
